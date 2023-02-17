@@ -34,6 +34,9 @@ public class GetAllSongs {
      * Do not change anything in this code. You should write your sql statement on a single line in the
      * problem1.sql file.
      */
+    public static void main (String [] args){
+        
+    }
     public List<Song> problem1(){
 //        write your SQL logic in a single line in the problem1.sql file.
         String sql = FileUtil.parseSQLFile("problem1.sql");
